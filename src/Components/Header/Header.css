@@ -1,0 +1,98 @@
+
+
+header{
+    background-image: url('https://wallpapercave.com/wp/wp10279812.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+} 
+
+
+.bill{
+    object-fit: contain;
+    height: 300px;
+    margin-left: -90px;
+    z-index: 2;
+}
+
+.header_billboard{
+    margin-left: 8vh;
+    padding-top: 15vh;
+    z-index: 5;
+    position: relative;
+}
+
+.Des{
+    color: #8B3C7F;
+    width: 40vw;
+    margin-top: -6vh;
+    text-shadow: 2px 2px 4px #000;
+    font-weight: 500;
+    font-family: 'neucha',cursive;
+    font-size: 1.7rem;
+    z-index: 2;
+    position: relative;
+}
+
+.header_button{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    border-radius: 4px;
+    border: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding: 1rem;
+
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.play{
+    background-color:#fff;
+    opacity: 70%;
+    color: rgb(0, 0, 0);
+    margin-right: 1rem;
+    font-family: 'neucha';
+}
+
+.play:hover{
+    opacity: 30%;
+    width: 9rem;
+    height: 6rem;
+}
+
+.info{
+    background-color: rgb(27, 26, 26);
+    color: white;
+    font-family: 'neucha';
+    padding: 1.1rem;
+}
+
+.info:hover{
+    opacity: 50%;
+    background-color:#B19DD0;
+    width: 12rem;
+    height: 6rem;
+}
+
+.header_inner_shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 20%;
+    background: rgb(47,3,43);
+background: linear-gradient(180deg, rgba(47,3,43,1) 5%, rgba(139,60,127,1) 100%);z-index: 1;
+}

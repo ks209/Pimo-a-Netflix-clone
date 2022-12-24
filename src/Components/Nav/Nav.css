@@ -1,0 +1,77 @@
+
+.nav_logo{
+    align-items: center;
+    margin-top: 10px;
+    height: 4rem;
+}
+
+section{
+    width: 90%;
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}
+
+nav{
+    height: 11vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    font-size: 0.9rem;
+    opacity: 90%;
+}
+
+.nav_left{
+    display: flex;
+    width: 85%;
+}
+
+.nav_links{
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+
+.nav_links a:hover{
+    color: #e97777;
+}
+
+.nav_links a {
+    color: #B19DD0;
+    text-decoration: none;
+    margin-left: 2.5rem;
+    font-size: 1.4rem;
+    font-family: "Neucha",cursive;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex: 1rem;
+    gap: 1.5rem;
+    color: #B19DD0;
+    height: 5rem;
+}
+
+.nav_right:hover{
+    color: #e97777;
+    cursor: pointer;
+}
+
+.nav_avatar{
+    height:8vh;
+}
+
+.nav_avatar:hover{
+    width: 110%;
+    height: 110%;
+}

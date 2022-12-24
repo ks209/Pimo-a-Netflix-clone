@@ -1,0 +1,29 @@
+.row_wrapper {
+    color: rgb(250, 249, 249);
+    margin-bottom: 10px;
+    z-index: 3;
+    margin-left: 10px;
+}
+
+.row_title {
+    font-size: 1.4vw;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-style: BOLD;
+    z-index: 3;
+    font-family: 'neucha';
+    color: #B19DD0;
+}
+
+.row_card {
+    display: flex;
+    align-items: center;
+    height: 130px;
+    color: black;
+    overflow-x: scroll;
+
+}
+
+.row_card::-webkit-scrollbar {
+    display: none;
+}

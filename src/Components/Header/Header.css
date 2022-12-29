@@ -64,6 +64,7 @@ header{
     color: rgb(0, 0, 0);
     margin-right: 1rem;
     font-family: 'neucha';
+    transition: 1s;
 }
 
 .play:hover{
@@ -77,6 +78,7 @@ header{
     color: white;
     font-family: 'neucha';
     padding: 1.1rem;
+    transition: 1s;
 }
 
 .info:hover{
@@ -84,6 +86,7 @@ header{
     background-color:#B19DD0;
     width: 12rem;
     height: 6rem;
+    
 }
 
 .header_inner_shadow{
@@ -91,7 +94,7 @@ header{
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 87vh;
     opacity: 20%;
     background: rgb(47,3,43);
 background: linear-gradient(180deg, rgba(47,3,43,1) 5%, rgba(139,60,127,1) 100%);z-index: 1;

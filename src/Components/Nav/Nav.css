@@ -3,6 +3,12 @@
     align-items: center;
     margin-top: 10px;
     height: 4rem;
+
+    transition: 0.2s;
+}
+
+.nav_logo:hover{
+    height: 5rem;
 }
 
 section{
@@ -38,6 +44,7 @@ nav{
 
 .nav_links a:hover{
     color: #e97777;
+    font-size: 200%;
 }
 
 .nav_links a {
@@ -49,11 +56,13 @@ nav{
     align-items: center;
     font-weight: 600;
     margin-top: 10px;
+    transition: 0.2s;
     
 }
 
 .nav_right{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     text-decoration: none;
     flex: 1rem;
@@ -62,16 +71,33 @@ nav{
     height: 5rem;
 }
 
-.nav_right:hover{
-    color: #e97777;
-    cursor: pointer;
-}
-
 .nav_avatar{
     height:8vh;
+
+    transition: 0.4s;
 }
 
 .nav_avatar:hover{
     width: 110%;
     height: 110%;
+}
+
+.search{
+    height: 3rem;
+}
+
+.noti{
+    height: 3rem;
+}
+
+.noti:hover{
+    cursor: pointer;
+    size: 150%;
+    color: #e97777 ;
+}
+
+.search:hover{
+    cursor: pointer;
+    height: 7rem;
+    color: #e97777;
 }

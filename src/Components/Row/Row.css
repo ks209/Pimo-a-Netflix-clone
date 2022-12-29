@@ -6,7 +6,7 @@
 }
 
 .row_title {
-    font-size: 1.4vw;
+    font-size: 30px;
     letter-spacing: 3px;
     margin-bottom: 10px;
     font-style: BOLD;
@@ -20,8 +20,13 @@
     align-items: center;
     height: 130px;
     color: black;
-    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow-x:visible;
+    z-index: 4;
+}
 
+.row_card:hover{
+    height: fit-content;
 }
 
 .row_card::-webkit-scrollbar {

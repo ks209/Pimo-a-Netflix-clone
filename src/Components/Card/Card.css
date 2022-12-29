@@ -4,4 +4,11 @@
     position: relative;
     margin-right: 15px;
     width: 250px;
+    transition: 0.7s;
 }
+
+.card_poster:hover{
+    height: 200px;
+    width: 333.33px;
+}
+

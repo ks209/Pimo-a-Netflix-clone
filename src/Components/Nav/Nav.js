@@ -18,7 +18,7 @@ const Nav =()=>{
     window.addEventListener("scroll",scrollHandler);
 
     return()=>{
-      window.removeEventListener('scroll',()=>{})
+      window.removeEventListener('scroll',scrollHandler);
     }
 
   },[]);
@@ -43,7 +43,7 @@ const Nav =()=>{
                 </div>
             </div>
             <div className="nav_right">
-            <svg
+            <svg className="search"
             width='24'
             height='24'
             viewBox='0 0 24 24'
@@ -58,7 +58,7 @@ const Nav =()=>{
             ></path>
           </svg>
           <p></p>
-          <svg
+          <svg className="noti"
             width='24'
             height='24'
             viewBox='0 0 24 24'

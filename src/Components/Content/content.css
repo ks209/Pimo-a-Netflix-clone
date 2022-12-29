@@ -1,6 +1,8 @@
 .content-wrapper {
-    margin-top: -28px;
+    margin-top: -150px;
     position: relative;
     background: rgb(75,21,67);
-    background: linear-gradient(180deg, rgba(75,21,67,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(180deg, rgb(51, 7, 44) 0%, rgba(0,0,0,1) 100%);
+    border-top: 1rem;
+    border-color: blueviolet;
 }

@@ -10,7 +10,7 @@ export default function Card(props) {
   const youtubeUrl = `https://www.youtube.com/embed/`;
 
   const handleMouseEnter = () => {
-    setIsHovered(false);
+    setIsHovered(true);
   };
   const handleMouseLeave = () => {
     setIsHovered(false);
@@ -23,7 +23,7 @@ export default function Card(props) {
         },
       });
       if (response.data.videos.results.length > 0) {
-        //setVideo(response.data.video.results[1].key);
+        setVideo(response.data.videos.results[0].key);
         console.log(response)
       }
     } catch (e) {
@@ -39,17 +39,24 @@ export default function Card(props) {
     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       {!isHovered ? (
         <img className='card_poster' src={imageUrl} alt='poster' />
-      ) : (
+      ) : (<div className='t'>
         <div className='fra'>
         <iframe
-          allow='autoplay;picture-in-picture'
+          allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen
+          mozallowfullscreen="true"
           title='YouTube video player'
-          width='333.33px'
-          height='200px'
           frameBorder='0'
-          src={`${youtubeUrl}${video}`}
+          width='533.33px'
+          webkitallowfullscreen="true"
+          height='300px'
+          modestbranding='1'
+          controls='0'
+          src={`${youtubeUrl}${video}?rel=0&amp%3Bcontrols=0&amp&amp%3Bshowinfo=0&amp%3Bmodestbranding=0&ampautoplay=1`}
+          
         ></iframe>
+        </div>
+        <img className='card_posters' src={imageUrl} alt='poster' />
         </div>
       )}
     </div>

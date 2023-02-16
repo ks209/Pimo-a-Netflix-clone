@@ -5,10 +5,42 @@
     margin-right: 15px;
     width: 250px;
     transition: 0.7s;
+    z-index: 4;
+}
+
+.card_poster:hover {
+    height: 250px;
+    border-radius: 7px;
+    margin-right: 15px;
+    width: 530.33px;
+    transition: 3s;
+}
+
+
+
+.fra{
+    margin-right: 15px;
+    border: 0px;
+    transition: 3s;
+    z-index: 6;
+    z-index:5;
+    position: absolute;
+    margin-left: -3px;
+    margin-bottom: 10px;
+}
+
+.card_posters {
+    height: 250px;
+    border-radius: 7px;
+    margin-right: 15px;
+    width: 530.33px;
+    transition: 3s;
 }
 
 .card_poster:hover{
-    height: 200px;
-    width: 333.33px;
+    height: 250px;
+    border-radius: 7px;
+    margin-right: 15px;
+    width: 530.33px;
+    transition: 3s;
 }
-

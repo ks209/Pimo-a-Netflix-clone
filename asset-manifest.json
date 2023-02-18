@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Pimo-a-Netflix-clone/static/css/main.65a8bd49.css",
-    "main.js": "/Pimo-a-Netflix-clone/static/js/main.88bb6796.js",
+    "main.css": "/Pimo-a-Netflix-clone/static/css/main.34ab8f90.css",
+    "main.js": "/Pimo-a-Netflix-clone/static/js/main.c5f15588.js",
     "index.html": "/Pimo-a-Netflix-clone/index.html",
-    "main.65a8bd49.css.map": "/Pimo-a-Netflix-clone/static/css/main.65a8bd49.css.map",
-    "main.88bb6796.js.map": "/Pimo-a-Netflix-clone/static/js/main.88bb6796.js.map"
+    "main.34ab8f90.css.map": "/Pimo-a-Netflix-clone/static/css/main.34ab8f90.css.map",
+    "main.c5f15588.js.map": "/Pimo-a-Netflix-clone/static/js/main.c5f15588.js.map"
   },
   "entrypoints": [
-    "static/css/main.65a8bd49.css",
-    "static/js/main.88bb6796.js"
+    "static/css/main.34ab8f90.css",
+    "static/js/main.c5f15588.js"
   ]
 }

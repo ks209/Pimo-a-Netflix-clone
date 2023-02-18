@@ -1,9 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
 .nav_logo{
     align-items: center;
     margin-top: 10px;
     height: 4rem;
-
+    size: 100%;
     transition: 0.2s;
 }
 
@@ -100,4 +102,21 @@ nav{
     cursor: pointer;
     height: 7rem;
     color: #e97777;
+}
+
+@media (max-width:786px){
+    .nav_links{
+        display: none;
+    }
+    .nav_left{
+        size: 50%;
+    }
+    .nav_right{
+        height: 1rem;
+    }
+    .nav_logo{
+       height: 4rem;
+       margin-top: 30px;
+
+    }
 }

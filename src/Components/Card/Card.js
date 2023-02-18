@@ -3,6 +3,7 @@ import './Card.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
+
 export default function Card(props) {
   const imageUrl = `https://image.tmdb.org/t/p/original/${props.poster}`;
   const [video, setVideo] = useState('');
@@ -12,7 +13,7 @@ export default function Card(props) {
   const handleMouseEnter = () => {
     setIsHovered(true);
   };
-  const handleMouseLeave = () => {
+  const handleMouseLeave =() => {
     setIsHovered(false);
   };
   const fetchURL = async () => {
@@ -52,7 +53,7 @@ export default function Card(props) {
           height='300px'
           modestbranding='1'
           controls='0'
-          src={`${youtubeUrl}${video}?rel=0&amp%3Bcontrols=0&amp&amp%3Bshowinfo=0&amp%3Bmodestbranding=0&ampautoplay=1`}
+          src={`${youtubeUrl}${video}?rel=0&amp%3Bcontrols=1&amp&amp%3Bshowinfo=0&amp%3Bmodestbranding=0&ampautoplay=1`}
           
         ></iframe>
         </div>

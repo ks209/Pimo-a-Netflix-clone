@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 
 header{
@@ -98,4 +99,29 @@ header{
     opacity: 20%;
     background: rgb(47,3,43);
 background: linear-gradient(180deg, rgba(47,3,43,1) 5%, rgba(139,60,127,1) 100%);z-index: 1;
+}
+
+@media (max-width:786px){
+    header{
+        width: 1000px;
+        height: 1000px;
+        overflow-x: hidden;
+    }
+
+    .Des{
+        font-size: 2rem;
+        margin-top: -180px;
+        width: fit-content;
+        width: 250px;
+    }
+    .bill{
+        height: 300px;
+        margin-bottom: 150px;
+    }
+    .header_inner_shadow{
+        width: fit-content;
+        height: fit-content;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 }

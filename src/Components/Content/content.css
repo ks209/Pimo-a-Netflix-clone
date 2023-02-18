@@ -6,3 +6,10 @@
     border-top: 1rem;
     border-color: blueviolet;
 }
+
+@media (max-width:786px){
+    .content-wrapper{
+        margin-top: -60px;
+        width: 1000px;
+    }
+}

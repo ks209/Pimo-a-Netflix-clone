@@ -32,3 +32,15 @@
 .row_card::-webkit-scrollbar {
     display: none;
 }
+
+@media (max-width:786px){
+    .row_wrapper{
+        content: contain;
+    }
+    .row_card{
+        height: 400px;
+    }
+    .row_title{
+        font-size: 60px;
+    }
+}

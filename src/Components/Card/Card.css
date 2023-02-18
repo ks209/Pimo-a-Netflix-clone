@@ -37,10 +37,23 @@
     transition: 3s;
 }
 
-.card_poster:hover{
+.card_posters:hover{
     height: 250px;
     border-radius: 7px;
     margin-right: 15px;
     width: 530.33px;
     transition: 3s;
+}
+
+@media (max-width:786px){
+    .card_poster,.fra,.card_posters{
+        width: 800px;
+        height: 400px;
+    }
+    .fra{
+        width: fit-content;
+    }
+    .t{
+        position: relative;
+    }
 }

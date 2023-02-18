@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+.a,.h,.c{
+    width: 100%;
+}
+
+
+
+
+
+
+@media (max-width:786px){
+    .n{
+        width: 50%;
+        overflow-x: visible;
+        size-adjust: auto;
+    }
+    .h{
+        width: 50%;
+        overflow-x: visible;
+        size-adjust: auto;
+    }
+    .c{
+        width: 50%;
+        overflow-x: visible;
+        size-adjust: auto;
+    }
+}

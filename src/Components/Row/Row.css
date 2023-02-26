@@ -11,14 +11,14 @@
     margin-bottom: 10px;
     font-style: BOLD;
     z-index: 3;
-    font-family: 'neucha';
+    font-family: 'neucha',cursive;
     color: #B19DD0;
 }
 
 .row_card {
     display: flex;
     align-items: center;
-    height: 130px;
+    height: 400px;
     color: black;
     overflow-y: hidden;
     overflow-x:visible;

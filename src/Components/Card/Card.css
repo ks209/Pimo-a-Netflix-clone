@@ -1,19 +1,23 @@
 .card_poster {
-    height: 150px;
+    height: 400px;
     border-radius: 7px;
     position: relative;
-    margin-right: 15px;
-    width: 250px;
+    margin-right: 30px;
+    width: 200px;
     transition: 0.7s;
-    z-index: 4;
+    z-index: 4;  
+    margin-left:10px;
+    
 }
 
 .card_poster:hover {
-    height: 250px;
+    height: 400px;
     border-radius: 7px;
+    position: relative;
     margin-right: 15px;
-    width: 530.33px;
-    transition: 3s;
+    width: 200px;
+    transition: 0.7s;
+    z-index: 4;  
 }
 
 
@@ -24,17 +28,19 @@
     transition: 3s;
     z-index: 6;
     z-index:5;
-    position: absolute;
     margin-left: -3px;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .card_posters {
-    height: 250px;
+    height: 400px;
     border-radius: 7px;
+    position: relative;
     margin-right: 15px;
-    width: 530.33px;
-    transition: 3s;
+    width: 200px;
+    transition: 0.7s;
+    z-index: 4;  
 }
 
 .card_posters:hover{
@@ -43,6 +49,14 @@
     margin-right: 15px;
     width: 530.33px;
     transition: 3s;
+}
+
+.classname:shade{
+    height: 100vh;
+    width: 100vw;
+    color: #301d2e;
+    opacity: 30%;
+
 }
 
 @media (max-width:786px){

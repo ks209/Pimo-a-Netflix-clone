@@ -9,6 +9,7 @@ export default function Card(props) {
   const [video, setVideo] = useState('');
   const [isHovered, setIsHovered] = useState('');
   const youtubeUrl = `https://www.youtube.com/embed/`;
+  const [click,setClick] = useState('');
 
   const handleMouseEnter = () => {
     setIsHovered(true);
@@ -32,6 +33,12 @@ export default function Card(props) {
     }
   };
 
+  const handleclick = () =>{
+    setClick(true);
+    <div className='shade'>
+    </div>
+  }
+
   useEffect(() => {
     fetchURL();
   }, []);
@@ -50,14 +57,16 @@ export default function Card(props) {
           frameBorder='0'
           width='533.33px'
           webkitallowfullscreen="true"
-          height='300px'
+          height='350px'
           modestbranding='1'
           controls='0'
           src={`${youtubeUrl}${video}?rel=0&amp%3Bcontrols=1&amp&amp%3Bshowinfo=0&amp%3Bmodestbranding=0&ampautoplay=1`}
           
         ></iframe>
+        <div onClick={handleclick}>
+          
+          </div>
         </div>
-        <img className='card_posters' src={imageUrl} alt='poster' />
         </div>
       )}
     </div>
